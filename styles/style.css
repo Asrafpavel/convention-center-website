@@ -2,3 +2,55 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+.pac-items{
+    display: flex; 
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.items {
+    width: 292px;
+    height: 480px;
+    padding: 40px;
+}
+.another{
+    background-color:#3F87F5 ;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.hot{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.966);
+    width: 55px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    position: relative;
+    left:140px;
+    top: -53px;
+    
+}
+
+footer{
+    background-color: #0b0d17;
+    height: 40vh;
+}
+
+
+@media only screen and (max-width:592px) {
+    .customize-1{
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+    }
+    
+    .customize-1 > .w-50 {
+        width: 100% !important;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+
+}

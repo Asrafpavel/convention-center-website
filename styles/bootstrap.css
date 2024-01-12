@@ -785,7 +785,7 @@ progress {
 }
 
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 2.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -8522,7 +8522,7 @@ textarea.form-control-lg {
 
 .text-success {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: #848199 !important;
 }
 
 .text-info {
@@ -8876,7 +8876,7 @@ textarea.form-control-lg {
 
 .bg-body-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f496d2a8 !important;
 }
 
 .bg-body-tertiary {
